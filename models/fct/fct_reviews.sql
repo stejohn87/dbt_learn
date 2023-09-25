@@ -4,6 +4,7 @@
         on_schema_change = 'fail'
         )
 }}
+
 with src_reviews as (
     select * from {{ ref('src_reviews') }}
 )
